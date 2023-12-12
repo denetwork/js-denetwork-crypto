@@ -31,7 +31,7 @@ export class AesHex
 		}
 		catch ( err )
 		{
-			console.error( `encryptAES`, err );
+			//console.error( `encryptAES`, err );
 			return text;
 		}
 	}
@@ -59,7 +59,7 @@ export class AesHex
 		}
 		catch ( err )
 		{
-			console.error( `decryptAES`, err );
+			//console.error( `decryptAES`, err );
 			return encryptedHex;
 		}
 	}
